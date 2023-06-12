@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <form>
-        <label htmlFor="name" id='name'>Name:</label>
+        <label id='name'>Name:</label>
         <input id='name' name='name' type='text' />
 
         <label id='email'>Email:</label>
