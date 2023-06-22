@@ -1,6 +1,15 @@
-import './App.css';
+import { useState } from 'react';
+import './index.css';
+
+import db from "./config/firebase";
+
 
 function App() {
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [users, setUsers] = useState([]);
+
   return (
     <div className="App">
       <form>
