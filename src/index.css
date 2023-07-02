@@ -7,16 +7,22 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f5f5f5;
-  color: white;
+  color: black;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 15;
 
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.692);
   width: 350px;
+  height: 450px;
 }
